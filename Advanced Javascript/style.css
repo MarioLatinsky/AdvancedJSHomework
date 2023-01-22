@@ -1,0 +1,4 @@
+#tableOfPlanets {
+  display: flex;
+  flex-wrap: wrap;
+}
