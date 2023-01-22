@@ -1,0 +1,12 @@
+#tableOfPlanets {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#btn {
+  border-radius: 20px;
+}
+
+#btn:hover {
+  background-color: red;
+}
