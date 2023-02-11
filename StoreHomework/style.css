@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  position: relative;
+}
+
+#container {
+  border-radius: 2.5%;
+  background-color: rgba(180, 180, 181, 0.437);
+  width: 1250px;
+  height: 550px;
+  position: absolute;
+  justify-content: center;
+  top: 150px;
+  left: 9.5%;
+}
+
+#jewelery {
+  position: absolute;
+  top: 2%;
+  left: 1%;
+  height: 45%;
+  width: 48%;
+}
+
+#titleContainer {
+  position: relative;
+}
+
+#jeweleryTitle {
+  position: absolute;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: rgb(197, 55, 55);
+  left: 16%;
+  top: 20%;
+}
+
+#electronics {
+  position: absolute;
+  top: 2%;
+  right: 1%;
+  height: 45%;
+  width: 48%;
+}
+
+#electronicsTitle {
+  position: absolute;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: rgb(197, 55, 55);
+  right: 10%;
+  top: 16%;
+}
+
+#mens_clothing {
+  position: absolute;
+  bottom: 2%;
+  left: 1%;
+  height: 45%;
+  width: 48%;
+}
+
+#mensTitle {
+  position: absolute;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: rgb(197, 55, 55);
+  left: 8.5%;
+  bottom: 20%;
+}
+
+#womens_clothing {
+  position: absolute;
+  bottom: 2%;
+  right: 1%;
+  height: 45%;
+  width: 48%;
+}
+
+#womensTitle {
+  position: absolute;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: rgb(197, 55, 55);
+  right: 5%;
+  bottom: 20%;
+}
+
+li {
+  color: rgb(59, 59, 59);
+  padding-bottom: 2%;
+  font-size: 70%;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-style: italic;
+}
