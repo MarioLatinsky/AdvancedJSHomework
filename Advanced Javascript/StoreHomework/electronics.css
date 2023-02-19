@@ -1,0 +1,373 @@
+body {
+  background-image: url(./Images/electronicBackground.jpg);
+  background-attachment: fixed;
+}
+
+#container {
+  height: 125rem;
+  width: 75rem;
+
+  position: relative;
+}
+/* First Product */
+#firstProduct {
+  position: absolute;
+  margin-top: 1%;
+  height: 12%;
+  width: 25%;
+  top: 2%;
+  left: 10%;
+}
+#title1 {
+  color: rgb(78, 78, 78);
+  position: absolute;
+  height: 2%;
+  width: 30%;
+  font-size: 15px;
+  top: 0%;
+  left: 9%;
+}
+
+#paragraph {
+  color: rgba(112, 112, 112, 0.952);
+  position: absolute;
+  width: 25%;
+  top: 15%;
+  left: 10%;
+}
+
+#firstPrice {
+  position: absolute;
+  color: rgba(52, 53, 52, 0.834);
+  font-style: italic;
+  font-weight: bold;
+  font-size: 150%;
+  top: 23%;
+  left: 10%;
+}
+
+#firstBtn {
+  background-color: rgba(27, 157, 27, 0.711);
+  border: none;
+  border-radius: 50%;
+  color: rgb(73, 73, 73);
+  font-size: 90%;
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  position: absolute;
+  height: 1.5%;
+  width: 10%;
+  top: 24%;
+  left: 23%;
+}
+
+#firstBtn:hover {
+  background-color: rgba(30, 157, 30, 0.876);
+  color: black;
+  cursor: pointer;
+}
+
+/* Second Product */
+#secondProduct {
+  position: absolute;
+  margin-top: 1%;
+  height: 12%;
+  width: 25%;
+  top: 2%;
+  right: 10%;
+}
+
+#title2 {
+  color: rgb(78, 78, 78);
+  position: absolute;
+  height: 2%;
+  width: 30%;
+  font-size: 15px;
+  top: 0%;
+  right: 5.5%;
+}
+
+#paragraph2 {
+  color: rgba(112, 112, 112, 0.952);
+  position: absolute;
+  width: 25%;
+  top: 15%;
+  right: 10%;
+}
+
+#secondPrice {
+  position: absolute;
+  color: rgba(52, 53, 52, 0.834);
+  font-style: italic;
+  font-weight: bold;
+  font-size: 150%;
+  top: 26.5%;
+  right: 31%;
+}
+
+#secondBtn {
+  background-color: rgba(27, 157, 27, 0.711);
+  border: none;
+  border-radius: 50%;
+  color: rgb(73, 73, 73);
+  font-size: 90%;
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  position: absolute;
+  height: 1.5%;
+  width: 10%;
+  top: 27.7%;
+  right: 12%;
+}
+
+#secondBtn:hover {
+  background-color: rgba(30, 157, 30, 0.876);
+  color: black;
+  cursor: pointer;
+}
+
+/* Third Product */
+#thirdProduct {
+  position: absolute;
+  margin-top: 1%;
+  height: 12%;
+  width: 25%;
+  bottom: 50%;
+  left: 10%;
+}
+
+#title3 {
+  color: rgb(78, 78, 78);
+  position: absolute;
+  height: 2%;
+  width: 30%;
+  font-size: 15px;
+  top: 35%;
+  left: 9%;
+}
+
+#paragraph3 {
+  color: rgba(112, 112, 112, 0.952);
+  position: absolute;
+  width: 25%;
+  top: 50%;
+  left: 10%;
+}
+
+#thirdPrice {
+  position: absolute;
+  color: rgba(52, 53, 52, 0.834);
+  font-style: italic;
+  font-weight: bold;
+  font-size: 150%;
+  top: 61.5%;
+  left: 10%;
+}
+
+#thirdBtn {
+  background-color: rgba(27, 157, 27, 0.711);
+  border: none;
+  border-radius: 50%;
+  color: rgb(73, 73, 73);
+  font-size: 90%;
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  position: absolute;
+  height: 1.5%;
+  width: 10%;
+  top: 62.7%;
+  left: 23%;
+}
+
+#thirdBtn:hover {
+  background-color: rgba(30, 157, 30, 0.876);
+  color: black;
+  cursor: pointer;
+}
+
+/* Fourth Product */
+#fourthProduct {
+  position: absolute;
+  margin-top: 1%;
+  height: 12%;
+  width: 25%;
+  bottom: 50%;
+  right: 10%;
+}
+
+#title4 {
+  color: rgb(78, 78, 78);
+  position: absolute;
+  height: 2%;
+  width: 30%;
+  font-size: 15px;
+  top: 35%;
+  right: 5.5%;
+}
+
+#paragraph4 {
+  color: rgba(112, 112, 112, 0.952);
+  position: absolute;
+  width: 25%;
+  top: 50%;
+  right: 10%;
+}
+
+#fourthPrice {
+  position: absolute;
+  color: rgba(52, 53, 52, 0.834);
+  font-style: italic;
+  font-weight: bold;
+  font-size: 150%;
+  top: 54.3%;
+  right: 31%;
+}
+
+#fourthBtn {
+  background-color: rgba(27, 157, 27, 0.711);
+  border: none;
+  border-radius: 50%;
+  color: rgb(73, 73, 73);
+  font-size: 90%;
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  position: absolute;
+  height: 1.5%;
+  width: 10%;
+  top: 55.5%;
+  right: 12%;
+}
+
+#fourthBtn:hover {
+  background-color: rgba(30, 157, 30, 0.876);
+  color: black;
+  cursor: pointer;
+}
+
+/* Fifth Product */
+#fifthProduct {
+  position: absolute;
+  margin-top: 1%;
+  height: 12%;
+  width: 25%;
+  bottom: 14%;
+  left: 10%;
+}
+
+#title5 {
+  color: rgb(78, 78, 78);
+  position: absolute;
+  height: 2%;
+  width: 30%;
+  font-size: 15px;
+  bottom: 26%;
+  left: 9%;
+}
+
+#paragraph5 {
+  color: rgba(112, 112, 112, 0.952);
+  position: absolute;
+  width: 25%;
+  top: 86%;
+  left: 11%;
+}
+
+#fifthPrice {
+  position: absolute;
+  color: rgba(52, 53, 52, 0.834);
+  font-style: italic;
+  font-weight: bold;
+  font-size: 150%;
+  top: 96%;
+  left: 11%;
+}
+
+#fifthBtn {
+  background-color: rgba(27, 157, 27, 0.711);
+  border: none;
+  border-radius: 50%;
+  color: rgb(73, 73, 73);
+  font-size: 90%;
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  position: absolute;
+  height: 1.5%;
+  width: 10%;
+  top: 97%;
+  left: 23%;
+}
+
+#fifthBtn:hover {
+  background-color: rgba(30, 157, 30, 0.876);
+  color: black;
+  cursor: pointer;
+}
+
+/* Sixht Product */
+
+#sixhtProduct {
+  position: absolute;
+  margin-top: 1%;
+  height: 12%;
+  width: 25%;
+  bottom: 14%;
+  right: 10%;
+}
+
+#title6 {
+  color: rgb(78, 78, 78);
+  position: absolute;
+  height: 2%;
+  width: 30%;
+  font-size: 15px;
+  bottom: 27%;
+  right: 6%;
+}
+
+#paragraph6 {
+  color: rgba(112, 112, 112, 0.952);
+  position: absolute;
+  width: 25%;
+  top: 86%;
+  right: 11%;
+}
+
+#sixhtPrice {
+  position: absolute;
+  color: rgba(52, 53, 52, 0.834);
+  font-style: italic;
+  font-weight: bold;
+  font-size: 150%;
+  top: 96%;
+  right: 29.5%;
+}
+
+#sixhtBtn {
+  background-color: rgba(27, 157, 27, 0.711);
+  border: none;
+  border-radius: 50%;
+  color: rgb(73, 73, 73);
+  font-size: 90%;
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  position: absolute;
+  height: 1.5%;
+  width: 10%;
+  top: 97%;
+  right: 12%;
+}
+
+#sixhtBtn:hover {
+  background-color: rgba(30, 157, 30, 0.876);
+  color: black;
+  cursor: pointer;
+}
+*/ h1 {
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+li {
+  padding-bottom: 25%;
+  list-style: none;
+}
